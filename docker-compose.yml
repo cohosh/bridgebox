@@ -2,9 +2,9 @@ services:
   bridgedb:
     build:
       context: bridgedb
+    container_name: bridgedb
     volumes:
       - ${BRIDGEDB_REPO}:/home/bridgedb/bridgedb
     ports:
       - 443:443
     tty: true
-    container_name: bridgedb
