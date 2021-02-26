@@ -45,3 +45,7 @@ If you wish to make changes to the provided configuration file, not that you'll 
 When BridgeDB is running, logs can be found in `/home/bridgedb/`.
 
 You should now be able to navigate to `https://localhost` in your browser and interact with the BridgeDB instance.
+
+### Running tests
+
+You can run tests by executing `make coverage` or `make coverage-test` from within the bridgedb directory.
